@@ -1,15 +1,10 @@
 {
   "expo": {
     "name": "codwz",
-    "slug": "codwz",
+    "slug": "CODWZ",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "icon": "./src/assets/icon.png",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -19,8 +14,8 @@
     "ios": {
       "supportsTablet": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.tomimarkus991.codwz"
     }
   }
 }
